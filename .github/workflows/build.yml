@@ -57,7 +57,7 @@ jobs:
         uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
         with:
           distribution: temurin
-          java-version: 26.0.2+10
+          java-version: 27.0.0+35
 
       - name: Set up gradle
         # zizmor: ignore[cache-poisoning] This tests release branches but does not
